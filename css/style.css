@@ -17,8 +17,25 @@ li{
     padding: 0 15px;
 }
 body{
-
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #5e5e5e;
 }
 .header_top{
     background-color: #303030;
+}
+.header_btn{
+    float: right;
+    line-height: 36px;
+    font-family: 'Roboto Slab', serif;
+    color: #1b1b1b;
+    background-color: #ffc222;
+}
+.header_phone{
+
+}
+.header_mail{
+
 }
