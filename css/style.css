@@ -23,19 +23,61 @@ body{
     line-height: 18px;
     color: #5e5e5e;
 }
+header{
+    font-family: 'Roboto Slab', serif;
+}
 .header_top{
     background-color: #303030;
+    line-height: 36px;
 }
 .header_btn{
     float: right;
     line-height: 36px;
-    font-family: 'Roboto Slab', serif;
     color: #1b1b1b;
     background-color: #ffc222;
+    padding: 5px 20px 4px 50px;
+    font-size: 16px;
+}
+.header_contacts:after{
+    content: "";
+    clear: both;
+    display: block;
+}
+.header_phone,
+.header_mail{
+    color: #cbcacb;
+    letter-spacing: 0.25px;
+    line-height: 45px;
+    color: #ffc222;
 }
 .header_phone{
-
+    padding-left: 20px;
+    padding-right: 30px;
 }
 .header_mail{
-
+    padding-left: 25px;
+}
+.header_content{
+    padding: 25px 0px 23px;
+}
+.header_content-inner{
+    display: flex;
+    justify-content: space-between;
+}
+.menu li{
+    display: inline-block;
+}
+.menu a{
+    color: #323232;
+    font-size: 16px;
+    line-height: 36px;
+    border: 1px solid transparent;
+    padding: 0px 16px;
+    transition: all .3s;
+}
+.menu a:hover{
+    border-color: #ffc222;
+}
+.menu li{
+    padding: 10px;
 }
