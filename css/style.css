@@ -33,7 +33,7 @@ header{
     color: #ffc222;
 }
 .header_top a:hover{
-    color: #e04700;
+    color: #7763cf;
 }
 .header_btn{
     float: right;
@@ -61,8 +61,14 @@ header{
 .header_mail{
     padding-left: 25px;
 }
+
 .header_content{
-    padding: 25px 0px 23px;
+    background-image: url(../img/btns.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 5px;
+
 }
 .header_content-inner{
     display: flex;
@@ -78,15 +84,16 @@ header{
 .menu a{
     color: #323232;
     font-size: 16px;
-    line-height: 36px;
-    border: 3px solid transparent;
+    line-height: 26px;
+    border: 3px solid #000000;
     padding: 0px 16px;
     transition: all .3s;
+    box-shadow: 0 0 10px #000000;
 }
 .menu a:hover{
-    border-color: #a45dc5;
-    background-color: #f0ebe0;
+    border-color: #303030;
     border-radius: 20px;
+    box-shadow: 0 0 10px #000000;
 }
 .menu li{
     padding: 10px;
@@ -122,20 +129,52 @@ header{
 }
 
 .default-btn{
-    color: #ffffff;
+    color: #36343a;
     display: inline-block;
     line-height: 30px;
     font-size: 18px;
     font-weight: 750;
     font-family: 'Roboto', sans-serif;
     border: 5px solid transparent;
-    border-color: #ffc222;
+    border-color: #36343a;
     border-radius:2px;
     padding: 10px 16px 10px 16px;
+    background-image: url(../img/btns.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
        
 }
+.default-btn:hover{
+    box-shadow: 0 0 10px #000000;
+}    
+
 .fa-angle-right{
-    background-color: #d16f2e;
+    right: 0;
     padding: 10px 10px 10px 10px;
    
+}
+.slider{
+    position: relative;
+}
+.slick-btn{
+    position: absolute;
+    top: 50%;
+    z-index: 3;
+    background-image: url(../img/btns.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #36343a;
+    font-size: 34px;
+    border: 2px solid;
+}
+.slick-btn:hover{
+    box-shadow: 0 0 10px #000000;
+}
+.slick-next{
+    right: 0;
+}
+.slick-prev{
+    left: 0;
 }
