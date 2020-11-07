@@ -24,7 +24,7 @@ body{
     
 }
 
-header{
+.header{
     font-family: 'Roboto Slab', serif;
 }
 .header_top{
@@ -33,23 +33,16 @@ header{
     color: #ffc222;
 }
 .header_top a:hover{
-    color: #7763cf;
+    text-shadow: 1px 1px 2px black, 0 0 1em #ffffff;
 }
-.header_btn{
-    float: right;
-    line-height: 36px;
-    color: #1b1b1b;
-    background-color: #ffc222;
-    padding: 5px 36px 4px 20px;
-    font-size: 16px;
-}
+
 .header_contacts:after{
     content: "";
     clear: both;
     display: block;
 }
 .header_phone,
-.header_mail{
+.header_mail,.header_btn{
     letter-spacing: 0.25px;
     line-height: 45px;
     color: #ffc222;
@@ -60,6 +53,9 @@ header{
 }
 .header_mail{
     padding-left: 25px;
+}
+.header_btn{
+    padding-left: 500px;
 }
 
 .header_content{
@@ -75,8 +71,7 @@ header{
     justify-content: space-between;
 }
 .fas{
-    padding-right: 10px;
-    font-size: 20px;
+    font-size: 24px;
 }
 .menu li{
     display: inline-block;
@@ -110,6 +105,7 @@ header{
     padding-top: 70px;
     max-width: 665px;
     margin: 0 auto;
+    cursor: grab;
 }
 .slaider_title{
     text-transform: uppercase;
@@ -119,6 +115,7 @@ header{
     font-weight: 500;
     letter-spacing: 0.5px;
     margin-bottom: 22px;
+    text-shadow: 1px 1px 2px black, 0 0 1em red;
 }
 .slaider_text{
     line-height: 24px;
@@ -126,6 +123,7 @@ header{
     color: #ffffff;
     margin-bottom: 50px;
     letter-spacing: 1px;
+    text-shadow: 1px 1px 2px black, 0 0 1em red;
 }
 
 .default-btn{
@@ -138,12 +136,12 @@ header{
     border: 5px solid transparent;
     border-color: #36343a;
     border-radius:2px;
-    padding: 10px 16px 10px 16px;
     background-image: url(../img/btns.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-       
+    padding: 10px 20px 7px 20px;
+     
 }
 .default-btn:hover{
     box-shadow: 0 0 10px #000000;
@@ -151,8 +149,6 @@ header{
 
 .fa-angle-right{
     right: 0;
-    padding: 10px 10px 10px 10px;
-   
 }
 .slider{
     position: relative;
@@ -161,20 +157,20 @@ header{
     position: absolute;
     top: 50%;
     z-index: 3;
-    background-image: url(../img/btns.jpg);
+    background-color: transparent;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     color: #36343a;
-    font-size: 34px;
     border: 2px solid;
-}
-.slick-btn:hover{
-    box-shadow: 0 0 10px #000000;
+    outline: none;
+    cursor: pointer;
 }
 .slick-next{
+    border: transparent;
     right: 0;
 }
 .slick-prev{
+    border: transparent;
     left: 0;
 }
