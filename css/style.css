@@ -21,17 +21,19 @@ body{
     font-weight: 400;
     font-size: 14px;
     line-height: 18px;
-    color: #5e5e5e;
+    
 }
-body a:hover{
-    color: #00c8fa;
-}
+
 header{
     font-family: 'Roboto Slab', serif;
 }
 .header_top{
     background-color: #303030;
     line-height: 36px;
+    color: #ffc222;
+}
+.header_top a:hover{
+    color: #e04700;
 }
 .header_btn{
     float: right;
@@ -48,7 +50,6 @@ header{
 }
 .header_phone,
 .header_mail{
-    color: #cbcacb;
     letter-spacing: 0.25px;
     line-height: 45px;
     color: #ffc222;
@@ -68,8 +69,8 @@ header{
     justify-content: space-between;
 }
 .fas{
-    color: #9c9c9c;
     padding-right: 10px;
+    font-size: 20px;
 }
 .menu li{
     display: inline-block;
@@ -83,7 +84,7 @@ header{
     transition: all .3s;
 }
 .menu a:hover{
-    border-color: #ffc222;
+    border-color: #a45dc5;
     background-color: #f0ebe0;
     border-radius: 20px;
 }
@@ -91,9 +92,50 @@ header{
     padding: 10px;
 }
 .slaider{
-    background-image: url(../img/bg.png);
+    background-image: url(../img/sf.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     min-height: 390px;
+}
+.slaider_item-content{
+    text-align: center;
+    padding-top: 70px;
+    max-width: 665px;
+    margin: 0 auto;
+}
+.slaider_title{
+    text-transform: uppercase;
+    font-size: 30px;
+    line-height: 36px;
+    color: #ffffff;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    margin-bottom: 22px;
+}
+.slaider_text{
+    line-height: 24px;
+    font-size: 18px;
+    color: #ffffff;
+    margin-bottom: 50px;
+    letter-spacing: 1px;
+}
+
+.default-btn{
+    color: #ffffff;
+    display: inline-block;
+    line-height: 30px;
+    font-size: 18px;
+    font-weight: 750;
+    font-family: 'Roboto', sans-serif;
+    border: 5px solid transparent;
+    border-color: #ffc222;
+    border-radius:2px;
+    padding: 10px 16px 10px 16px;
+       
+}
+.fa-angle-right{
+    background-color: #d16f2e;
+    padding: 10px 10px 10px 10px;
+   
 }
