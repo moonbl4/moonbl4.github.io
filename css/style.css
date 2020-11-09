@@ -26,14 +26,18 @@ body{
 
 .header{
     font-family: 'Roboto Slab', serif;
+    background-image: url(../img/btns.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 5px;
 }
 .header_top{
-    background-color: #303030;
-    line-height: 36px;
-    color: #ffc222;
+    line-height: 36px;  
+    background-color: black;
 }
 .header_top a:hover{
-    text-shadow: 1px 1px 2px black, 0 0 1em #ffffff;
+    text-decoration: underline;
 }
 
 .header_contacts:after{
@@ -42,37 +46,39 @@ body{
     display: block;
 }
 .header_phone,
-.header_mail,.header_btn{
+.header_mail{
     letter-spacing: 0.25px;
     line-height: 45px;
-    color: #ffc222;
-}
-.header_phone{
+    color: #9c9c9c;
     padding-left: 20px;
-    padding-right: 30px;
+    padding-right: 20px;
 }
-.header_mail{
-    padding-left: 25px;
+.header_phone:hover{
+    color: rgb(255, 255, 255);  
+}
+.header_mail:hover{
+    color: rgb(255, 255, 255);
 }
 .header_btn{
-    padding-left: 500px;
+    letter-spacing: 0.25px;
+    line-height: 45px;
+    float: right;
+    color: #ffbe4c;
+    padding-left: 20px;
+    padding-right: 20px;
 }
-
-.header_content{
-    background-image: url(../img/btns.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    padding: 5px;
-
+.header_btn:hover{
+    color: #ffa200;
 }
 .header_content-inner{
     display: flex;
     justify-content: space-between;
+    padding-top: 8px;
 }
 .fas{
     font-size: 24px;
 }
+
 .menu li{
     display: inline-block;
 }
