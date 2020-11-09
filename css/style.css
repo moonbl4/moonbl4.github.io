@@ -184,3 +184,69 @@ body{
 .about{
     padding: 50px 0px 30px;
 }
+.about_top{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+.about_title-box{
+    max-width: 520px;
+    padding-left: 140px;
+    position: relative;
+    left: 0;
+}
+.about_title-box:before{
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 2px;
+    background-color: #303030;
+    left: 0px;
+    top: 11px;
+}
+.about-title{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #303030;
+    font-family: 'Roboto Slab', serif;
+    margin-bottom: 10px;
+}
+.about_text{
+    letter-spacing: 0.1px;
+}
+.about_btn a{
+    color: #303030;
+    line-height: 24px;
+    letter-spacing: 0.25px;
+    padding: 5px 38px;
+    border: 3px solid #9c9c9c;
+}
+.about_items{
+    display: flex;
+    justify-content: space-between;
+}
+.about_item{
+    max-width: 360px;
+    text-align: center;
+    padding: 30px 0px 40px;
+    position: relative;
+}
+.about_item-title{
+    color: black;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 500;
+    padding: 24px 0px;
+}
+.about_item-text{
+    color: #424242;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 500;
+    padding: 0px 35px;
+    letter-spacing: 0.1px;
+}
+.about_item-btn{
+    position: absolute;
+}
