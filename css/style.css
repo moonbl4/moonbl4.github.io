@@ -133,22 +133,23 @@ body{
 }
 
 .default-btn{
-    color: #36343a;
     display: inline-block;
-    line-height: 30px;
     font-size: 18px;
+    line-height: 30px;
+    color: #36343a;
     font-weight: 750;
     font-family: 'Roboto', sans-serif;
+    padding: 10px 20px 7px 20px;
     border: 5px solid transparent;
+    position: relative;
+    z-index: 2;
+    outline: none;
     border-color: #36343a;
     border-radius:2px;
     background-image: url(../img/btns.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
-    padding: 10px 20px 7px 20px;
-    outline: none;
-     
+    background-position: center;     
 }
 .default-btn:hover{
     box-shadow: 0 0 10px #000000;
@@ -193,7 +194,6 @@ body{
     max-width: 520px;
     padding-left: 140px;
     position: relative;
-    left: 0;
 }
 .about_title-box:before{
     content: "";
@@ -224,29 +224,29 @@ body{
 }
 .about_items{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between; 
 }
 .about_item{
     max-width: 360px;
     text-align: center;
-    padding: 30px 0px 40px;
+    padding: 30px 0px 80px;
     position: relative;
+    min-height: 375px;
+    background-color: #f9f9f9;
+    box-shadow: 0px 7px 24.3px 2.7px rgba(91, 89, 89, 0.14);
 }
 .about_item-title{
     color: black;
     font-size: 18px;
     line-height: 24px;
     font-weight: 500;
-    padding: 24px 0px;
+    padding: 24px 0;
 }
 .about_item-text{
-    color: #424242;
-    font-size: 14px;
-    line-height: 24px;
-    font-weight: 500;
-    padding: 0px 35px;
     letter-spacing: 0.1px;
+    padding: 0px 30px 30px;
 }
 .about_item-btn{
     position: absolute;
+    bottom: 40px;
 }
