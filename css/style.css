@@ -26,10 +26,6 @@ body{
 
 .header{
     font-family: 'Roboto Slab', serif;
-    background-image: url(../img/btns.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
     padding: 5px;
 }
 .header_top{
@@ -86,15 +82,19 @@ body{
     color: #323232;
     font-size: 16px;
     line-height: 26px;
-    border: 3px solid #000000;
+    border: 1px solid #474747;
     padding: 0px 16px;
     transition: all .3s;
-    box-shadow: 0 0 10px #000000;
+    box-shadow: 0 0 10px #585858;
+    background-image: url(../img/btns.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 .menu a:hover{
-    border-color: #303030;
+    border-color: #474747;
     border-radius: 20px;
-    box-shadow: 0 0 10px #000000;
+    box-shadow: 0 0 10px #585858;
 }
 .menu li{
     padding: 10px;
@@ -137,14 +137,14 @@ body{
     font-size: 18px;
     line-height: 30px;
     color: #36343a;
-    font-weight: 750;
+    font-weight: 600;
     font-family: 'Roboto', sans-serif;
-    padding: 10px 20px 7px 20px;
-    border: 5px solid transparent;
+    padding: 10px 17px 7px 20px;
+    border: 1px solid transparent;
     position: relative;
     z-index: 2;
     outline: none;
-    border-color: #36343a;
+    border-color: #474747;
     border-radius:2px;
     background-image: url(../img/btns.jpg);
     background-repeat: no-repeat;
@@ -156,7 +156,7 @@ body{
 }    
 
 .fa-angle-right{
-    right: 0;
+    margin-left: 10px;
 }
 .slider{
     position: relative;
@@ -182,20 +182,20 @@ body{
     border: transparent;
     left: 0;
 }
-.about{
+.services{
     padding: 50px 0px 30px;
 }
-.about_top{
+.services_top{
     display: flex;
     justify-content: space-between;
     margin-bottom: 60px;
 }
-.about_title-box{
+.services_title-box{
     max-width: 520px;
     padding-left: 140px;
     position: relative;
 }
-.about_title-box:before{
+.services_title-box:before{
     content: "";
     position: absolute;
     width: 100px;
@@ -204,7 +204,7 @@ body{
     left: 0px;
     top: 11px;
 }
-.about-title{
+.services-title{
     font-size: 24px;
     font-weight: 500;
     line-height: 24px;
@@ -212,41 +212,59 @@ body{
     font-family: 'Roboto Slab', serif;
     margin-bottom: 10px;
 }
-.about_text{
+.services_text{
     letter-spacing: 0.1px;
 }
-.about_btn a{
+.services_btn a{
     color: #303030;
     line-height: 24px;
     letter-spacing: 0.25px;
     padding: 5px 38px;
     border: 3px solid #9c9c9c;
 }
-.about_items{
+.services_items{
     display: flex;
     justify-content: space-between; 
 }
-.about_item{
+.services_item{
     max-width: 360px;
     text-align: center;
     padding: 30px 0px 80px;
     position: relative;
     min-height: 375px;
-    background-color: #f9f9f9;
-    box-shadow: 0px 7px 24.3px 2.7px rgba(91, 89, 89, 0.14);
+    background-color: #ffffff;
+    box-shadow: 0px 7px 24.3px 2.7px #8f8f8f;
 }
-.about_item-title{
+.services_item-title{
     color: black;
     font-size: 18px;
     line-height: 24px;
     font-weight: 500;
     padding: 24px 0;
 }
-.about_item-text{
+.services_item-text{
     letter-spacing: 0.1px;
     padding: 0px 30px 30px;
 }
-.about_item-btn{
+.services_item-btn{
     position: absolute;
     bottom: 40px;
+    left: 0;
+    right: 0;
+}
+.services_item-btn .default-btn{
+    color: #36343a;
+}
+.services_item-link{
+    color: #4d4d4d;
+    border-bottom: 1px solid #4d4d4d;
+    margin-right: 60px;
+}
+.about{
+    background-image: url(../img/bgg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 300px;
+    padding: 25px 0px 45px;
 }
