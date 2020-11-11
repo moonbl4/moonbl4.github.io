@@ -26,11 +26,10 @@ body{
 
 .header{
     font-family: 'Roboto Slab', serif;
-    padding: 5px;
 }
 .header_top{
     line-height: 36px;  
-    background-color: black;
+    background-color: rgb(35, 31, 32);
 }
 .header_top a:hover{
     text-decoration: underline;
@@ -45,26 +44,26 @@ body{
 .header_mail{
     letter-spacing: 0.25px;
     line-height: 45px;
-    color: #9c9c9c;
+    color: #ffffff;
     padding-left: 20px;
     padding-right: 20px;
 }
 .header_phone:hover{
-    color: rgb(255, 255, 255);  
+    color: rgb(118, 205, 216);
 }
 .header_mail:hover{
-    color: rgb(255, 255, 255);
+    color: rgb(118, 205, 216);
 }
 .header_btn{
     letter-spacing: 0.25px;
     line-height: 45px;
     float: right;
-    color: #ffbe4c;
+    color: #ffffff;
     padding-left: 20px;
     padding-right: 20px;
 }
 .header_btn:hover{
-    color: #ffa200;
+    color: rgb(118, 205, 216);
 }
 .header_content-inner{
     display: flex;
@@ -145,7 +144,7 @@ body{
     z-index: 2;
     outline: none;
     border-color: #474747;
-    border-radius:2px;
+    border-radius:4px;
     background-image: url(../img/btns.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -261,10 +260,30 @@ body{
     margin-right: 60px;
 }
 .about{
-    background-image: url(../img/bgg.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+    background-color: #353535;
     min-height: 300px;
     padding: 25px 0px 45px;
+}
+.about_inner{
+    max-width: 850px;
+}
+.about_title{
+    padding: 10px 0px 25px;
+    font-size: 24px;
+    line-height: 24px;
+    color: #fff;
+    font-weight: 500;
+}
+.about_text{
+    margin-bottom: 30px;
+    letter-spacing: 0.5px;
+    line-height: 24px;
+    color: #ffffff;
+}
+.about_inner .default-btn{
+    background-image: none;
+    color: rgb(255, 255, 255);
+}
+.about_inner .default-btn:hover{
+    box-shadow: 0 0 10px #ffffff;   
 }
